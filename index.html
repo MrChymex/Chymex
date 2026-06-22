@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Chiemerie ThankGod Aneke (Chymex) — Software Engineer, Web Developer, Graphics Designer, Digital Creator & Student Leader. SUG President, ASCETA.">
+<meta name="keywords" content="Software Engineer, Web Developer, Graphics Designer,  Student Leader, Chymex Tech Hub">
+<title>Chymex Tech Hub | Chiemerie  ThankGod Aneke</title>
+
+<link rel="icon" type="image/png" href="images/logo.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo">Chymex <span>Tech Hub</span></div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/2347015997711" class="wa-float" target="_blank" aria-label="Chat on WhatsApp">
+  <i class='bx bxl-whatsapp'></i>
+</a>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" onclick="closeMobile()">Home</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#skills" onclick="closeMobile()">Skills</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#portfolio" onclick="closeMobile()">Portfolio</a>
+  <a href="#leadership" onclick="closeMobile()">Leadership</a>
+  <a href="#resume" onclick="closeMobile()">Resume</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Chymex<span>.</span></div>
+  <div class="nav-links">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-right">
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+      <i class='bx bx-moon' id="themeIcon"></i>
+    </button>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+  </div>
+  <div class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Let me handle your Projects</div>
+    <h1>
+      Chiemerie<br>
+      <span class="name-blue">ThankGod</span> Aneke
+    </h1>
+    <p class="hero-subtitle">
+      <span class="hero-roles" id="typedRole">Software Engineer</span>
+    </p>
+    <p class="hero-desc">
+      Building innovative digital solutions, creating stunning visual designs, 
+      and providing impactful leadership for communities and organizations.
+    </p>
+    <div class="hero-btns">
+      <a href="#portfolio" class="btn-primary"><i class='bx bx-grid-alt'></i> View Portfolio</a>
+      <a href="images/MY CV.pdf" download="MY CV.pdf" class="btn-outline"><i class='bx bx-download'></i> Download Resume</a>
+      <a href="#contact" class="btn-outline"><i class='bx bx-message-square-dots'></i> Contact Me</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="num">4<span>+</span></div>
+        <div class="label">Years Experience</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">32<span>+</span></div>
+        <div class="label">Projects Done</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">30<span>th</span></div>
+        <div class="label">SUG President, ASCETA</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-socials">
+    <a href="https://www.linkedin.com/in/chymextechhub?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://www.instagram.com/comradechiemeriethankgodaneke?igsh=MmpwZ3hnOXdqeDBz" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+    <a href="https://github.com/MrChymex" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+    <a href="https://wa.me/2347015997711" target="_blank" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+  </div>
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <i class='bx bx-chevrons-down'></i>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section section-alt" id="about">
+  <div class="about-grid">
+    <div class="about-img-wrap reveal">
+      <div class="about-decoration"></div>
+      <div class="about-img-box">
+        <!-- Replace src with actual photo path -->
+        <img src="images/pix2Color.png" alt="Chiemerie ThankGod Aneke - Chymex"
+             onerror="this.parentElement.style.background='linear-gradient(135deg,#0d1220,#111826)';this.style.display='none'">
+      </div>
+      <div class="about-img-badge">
+        <div class="big">3+</div>
+        <div class="small">Years<br>Experience</div>
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <div class="about-label">About Me</div>
+      <h2>Tech Professional.<br>Creative. Leader.</h2>
+      <p>
+        I'm <strong style="color:var(--white)">Comr. Chiemerie ThankGod Aneke</strong> — widely known as <strong style="color:var(--blue)">Mr. Chymex</strong>. 
+        I'm a Software Engineer, Full Stack Web Developer, Graphics Designer, Videographer, Digital Creator, and proud current 
+        <strong style="color:var(--white)">SUG President of Abia State College of Education (Technical), Arochukwu (ASCETA)</strong>.
+      </p>
+      <p>
+        I combine technical expertise with creative vision and servant leadership to deliver digital solutions 
+        that make a real difference — from robust web platforms to compelling visual identities and impactful community advocacy.
+      </p>
+      <p>
+        Driven by a passion for technology, innovation, entrepreneurship, and youth development, I'm building 
+        a future where every young African has access to the tools and knowledge to thrive.
+      </p>
+      <div class="about-highlights">
+        <div class="about-highlight"><i class='bx bx-code-alt'></i> Software Engineering</div>
+        <div class="about-highlight"><i class='bx bx-globe'></i> Web Development</div>
+        <div class="about-highlight"><i class='bx bx-palette'></i> Graphics Design</div>
+        <div class="about-highlight"><i class='bx bx-video'></i> Videography</div>
+        <div class="about-highlight"><i class='bx bx-trending-up'></i> Digital Branding</div>
+        <div class="about-highlight"><i class='bx bx-crown'></i> Student Leadership</div>
+      </div>
+      <div class="about-btns">
+        <a href="#contact" class="btn-primary"><i class='bx bx-envelope'></i> Get In Touch</a>
+        <a href="#portfolio" class="btn-outline"><i class='bx bx-folder'></i> See My Work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+  <div class="section-header reveal">
+    <div class="section-label">What I Know</div>
+    <h2 class="section-title">My <span>Skills</span></h2>
+    <div class="section-line"></div>
+    <p class="section-sub">A multi-disciplinary professional with technical, creative, and leadership capabilities.</p>
+  </div>
+  <div class="skills-layout">
+    <!-- Technical -->
+    <div class="skills-card reveal">
+      <div class="skills-card-head">
+        <div class="skills-card-icon"><i class='bx bx-code-curly'></i></div>
+        <div class="skills-card-title">Technical Skills</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">HTML5</span><span class="skill-pct">92%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">CSS3</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">JavaScript</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">PHP</span><span class="skill-pct">70%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">UI/UX Design</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+    </div>
+    <!-- Design -->
+    <div class="skills-card reveal">
+      <div class="skills-card-head">
+        <div class="skills-card-icon"><i class='bx bx-brush'></i></div>
+        <div class="skills-card-title">Design & Media Skills</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">CorelDRAW</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Adobe Photoshop</span><span class="skill-pct">82%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Videography</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Photography</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Video Editing</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+    </div>
+    <!-- Leadership -->
+    <div class="skills-card reveal">
+      <div class="skills-card-head">
+        <div class="skills-card-icon"><i class='bx bx-group'></i></div>
+        <div class="skills-card-title">Leadership Skills</div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Public Speaking</span><span class="skill-pct">90%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Team Management</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Student Representation</span><span class="skill-pct">95%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Strategic Planning</span><span class="skill-pct">82%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Community Engagement</span><span class="skill-pct">92%</span></div>
+        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section section-alt" id="services">
+  <div class="section-header reveal">
+    <div class="section-label">What I Offer</div>
+    <h2 class="section-title">My <span>Services</span></h2>
+    <div class="section-line"></div>
+    <p class="section-sub">From code to canvas to community — end-to-end digital solutions tailored to your goals.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon"><i class='bx bx-code-alt'></i></div>
+      <h3>Software Development</h3>
+      <p>Custom web applications, portals, and digital platforms built with clean code, responsive design, and optimal performance — from concept to deployment.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class='bx bx-palette'></i></div>
+      <h3>Graphics Design</h3>
+      <p>Eye-catching flyers, banners, logos, brochures, and social media graphics that communicate your brand with clarity and visual power.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class='bx bx-trending-up'></i></div>
+      <h3>Brand Identity & Strategy</h3>
+      <p>Complete brand development — from logo creation to full brand guidelines — helping businesses and individuals build a consistent, memorable identity.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class='bx bx-video'></i></div>
+      <h3>Video Production</h3>
+      <p>Professional videography, photography, and video editing for events, promos, documentaries, and social content that captures moments and tells stories.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class='bx bx-crown'></i></div>
+      <h3>Student Leadership & Advocacy</h3>
+      <p>Campus welfare programs, student representation, educational advocacy, and community engagement initiatives that empower young people and drive positive change.</p>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon"><i class='bx bx-laptop'></i></div>
+      <h3>Tech Consulting</h3>
+      <p>Strategic technology advice and digital transformation support to help organizations and startups leverage the right tools for growth and efficiency.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section" id="portfolio">
+  <div class="section-header reveal">
+    <div class="section-label">My Work</div>
+    <h2 class="section-title">Project <span>Portfolio</span></h2>
+    <div class="section-line"></div>
+    <p class="section-sub">A curated selection of web, design, and media projects that showcase my creative and technical range.</p>
+  </div>
+  <div class="portfolio-filter reveal">
+    <button class="filter-btn active" onclick="filterPortfolio('all', this)">All</button>
+    <button class="filter-btn" onclick="filterPortfolio('web', this)">Web Dev</button>
+    <button class="filter-btn" onclick="filterPortfolio('design', this)">Graphics</button>
+    <button class="filter-btn" onclick="filterPortfolio('media', this)">Media</button>
+  </div>
+  <div class="portfolio-grid" id="portfolioGrid">
+    <div class="portfolio-item reveal" data-cat="web">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0d1a2e,#0a1525)">
+        <i class='bx bx-globe'></i>
+        <span class="thumb-label">Web Portal</span>
+      </div>
+      <div class="portfolio-meta">
+        <div class="portfolio-tag">Web Development</div>
+        <h4>SUG ASCETA Student Portal</h4>
+        <p>A full-stack web portal for students of ASCETA — featuring news, resources, and SUG communication tools.</p>
+      </div>
+    </div>
+    <div class="portfolio-item reveal" data-cat="web">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0d1a2e,#0c1a28)">
+        <i class='bx bx-store'></i>
+        <span class="thumb-label">E-Commerce</span>
+      </div>
+      <div class="portfolio-meta">
+        <div class="portfolio-tag">Web Development</div>
+        <h4>Chimx Tech Hub Website</h4>
+        <p>Business website with service showcase, portfolio section, and integrated contact system.</p>
+      </div>
+    </div>
+    <div class="portfolio-item reveal" data-cat="design">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1a0d2e,#15082a)">
+        <i class='bx bx-paint'></i>
+        <span class="thumb-label">Brand Identity</span>
+      </div>
+      <div class="portfolio-meta">
+        <div class="portfolio-tag">Graphics Design</div>
+        <h4>Corporate Logo & Brand Kit</h4>
+        <p>Complete brand identity package including logo, color palette, typography, and usage guidelines.</p>
+      </div>
+    </div>
+    <div class="portfolio-item reveal" data-cat="design">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0d2014,#0a1a10)">
+        <i class='bx bx-image'></i>
+        <span class="thumb-label">Social Media</span>
+      </div>
+      <div class="portfolio-meta">
+        <div class="portfolio-tag">Graphics Design</div>
+        <h4>Event Flyers & Banners</h4>
+        <p>Print-ready and digital promotional materials for academic events, concerts, and campaigns.</p>
+      </div>
+    </div>
+    <div class="portfolio-item reveal" data-cat="media">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1a1200,#14100a)">
+        <i class='bx bx-video-recording'></i>
+        <span class="thumb-label">Videography</span>
+      </div>
+      <div class="portfolio-meta">
+        <div class="portfolio-tag">Media Production</div>
+        <h4>Campus Event Documentation</h4>
+        <p>Full video production and photography coverage for ASCETA major events and SUG programs.</p>
+      </div>
+    </div>
+    <div class="portfolio-item reveal" data-cat="design">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#1a0a1a,#150815)">
+        <i class='bx bx-layout'></i>
+        <span class="thumb-label">Print Design</span>
+      </div>
+      <div class="portfolio-meta">
+        <div class="portfolio-tag">Graphics Design</div>
+        <h4>Brochures & Catalogues</h4>
+        <p>Professional multi-page brochure layouts for NGOs, student bodies, and small businesses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LEADERSHIP -->
+<section class="section section-alt" id="leadership">
+  <div class="section-header reveal">
+    <div class="section-label">Making an Impact</div>
+    <h2 class="section-title">Student <span>Leadership</span></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="leadership-grid">
+    <div class="leadership-title-area reveal">
+      <h2>Serving Students,<br>Shaping the Future</h2>
+      <p>
+        As the current <strong style="color:var(--white)">President of the Students' Union Government (SUG), ASCETA</strong>, 
+        I represent thousands of students, advocate for their welfare, and drive meaningful programs that improve campus life, 
+        academic conditions, and the broader community.
+      </p>
+      <p>
+        My leadership philosophy is rooted in transparency, inclusivity, innovation, and a relentless commitment to youth 
+        empowerment — because young people are not just the future, they are the present.
+      </p>
+      <div class="counters">
+        <div class="counter-box">
+          <div class="cnum" data-target="10">0</div>
+          <div class="clabel">Programs Launched</div>
+        </div>
+        <div class="counter-box">
+          <div class="cnum" data-target="500">0</div>
+          <div class="clabel">Students Reached</div>
+        </div>
+        <div class="counter-box">
+          <div class="cnum" data-target="5">0</div>
+          <div class="clabel">Advocacy Campaigns</div>
+        </div>
+        <div class="counter-box">
+          <div class="cnum" data-target="3">0</div>
+          <div class="clabel">Partnerships Formed</div>
+        </div>
+      </div>
+      <a href="#contact" class="btn-primary"><i class='bx bx-message-square-check'></i> Collaborate With Me</a>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class='bx bx-crown'></i></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2025 – Present</div>
+          <h4>SUG President — ASCETA</h4>
+          <p>Elected President of the Students' Union Government of Abia State College of Education (Technical), Arochukwu — leading student welfare, advocacy, and campus development initiatives.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class='bx bx-microphone'></i></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2024</div>
+          <h4>Student Advocacy Campaign</h4>
+          <p>Led a college-wide advocacy campaign addressing student welfare, tuition concerns, and hostel infrastructure improvements — resulting in direct dialogue with college management.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class='bx bx-laptop'></i></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2024</div>
+          <h4>Tech Empowerment Initiative</h4>
+          <p>Initiated a free digital skills training program for students — covering web design, graphics, and digital marketing — to reduce youth unemployment and bridge the skills gap.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"><i class='bx bx-heart'></i></div>
+        <div class="timeline-content">
+          <div class="timeline-date">2023</div>
+          <h4>Community Welfare Projects</h4>
+          <p>Coordinated welfare programs including blood donation drives, environmental sanitation, and outreach to underprivileged students within the college community.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="section" id="resume">
+  <div class="section-header reveal">
+    <div class="section-label">My Background</div>
+    <h2 class="section-title">Education & <span>Experience</span></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="resume-grid">
+    <div class="resume-col reveal">
+      <h3><i class='bx bx-book-open'></i> Education</h3>
+      <div class="resume-entry">
+        <div class="resume-period">2023 – Present</div>
+        <h4>National Certificate in Education (NCE)</h4>
+        <div class="org">Abia State College of Education (Technical), Arochukwu — Computer Science / Technical Education</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-period">Certifications</div>
+        <h4>Web Development Fundamentals</h4>
+        <div class="org">Self-directed study — HTML, CSS, JavaScript, PHP, Responsive Design</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-period">Certifications</div>
+        <h4>Graphics Design & Digital Media</h4>
+        <div class="org">CorelDRAW, Adobe Photoshop, Video Production & Editing</div>
+      </div>
+    </div>
+    <div class="resume-col reveal">
+      <h3><i class='bx bx-briefcase'></i> Experience</h3>
+      <div class="resume-entry">
+        <div class="resume-period">2025 – Present</div>
+        <h4>SUG President</h4>
+        <div class="org">Students' Union Government — Abia State College of Education (Technical), Arochukwu</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-period">2023 – Present</div>
+        <h4>Founder & Lead Developer</h4>
+        <div class="org">Chymex Tech Hub — Software Development, Graphics Design & Digital Services</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-period">Freelance</div>
+        <h4>Web Developer & Graphics Designer</h4>
+        <div class="org">Various Clients — Websites, Brand Identities, Event Materials, Promotional Campaigns</div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-period">2022 – Present</div>
+        <h4>Videographer & Digital Creator</h4>
+        <div class="org">Events Coverage, Social Content, Photography & Video Editing</div>
+      </div>
+    </div>
+  </div>
+  <div class="resume-download reveal">
+    <a href="images/MY CV.pdf" download="MY CV.pdf" class="btn-primary">
+      <i class='bx bx-download'></i> Download Full CV / Resume
+    </a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section section-alt" id="testimonials">
+  <div class="section-header reveal">
+    <div class="section-label">What People Say</div>
+    <h2 class="section-title">Client <span>Testimonials</span></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card reveal">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-quote">"Chymex delivered a stunning website for our organization. His attention to detail and technical depth is impressive. Highly recommended for any digital project."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">A</div>
+        <div class="testi-info">
+          <div class="name">Adaeze Okonkwo</div>
+          <div class="role">NGO Director, Abia State</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-quote">"The logo and brand kit he designed for us completely transformed how our business presents itself. Professional, creative, and always on time."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">E</div>
+        <div class="testi-info">
+          <div class="name">Emeka Nwosu</div>
+          <div class="role">Business Owner, Aba</div>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="testi-stars">★★★★★</div>
+      <p class="testi-quote">"As SUG President, Comr. ThankGod has been a tireless advocate for students. His leadership has brought visible improvements to campus life and student welfare."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">C</div>
+        <div class="testi-info">
+          <div class="name">Chisom Ibe</div>
+          <div class="role">Student, ASCETA</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="section-header reveal">
+    <div class="section-label">Let's Work Together</div>
+    <h2 class="section-title">Get In <span>Touch</span></h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <h3>Let's Build Something Great</h3>
+      <p>Have a project in mind, need a design, or want to collaborate? Reach out — I'm always open to new opportunities and meaningful connections.</p>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class='bx bx-envelope'></i></div>
+        <div>
+          <div class="ci-label">Email</div>
+          <div class="ci-val">anekethankgodc@gmail.com</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class='bx bxl-whatsapp'></i></div>
+        <div>
+          <div class="ci-label">WhatsApp</div>
+          <div class="ci-val">+234 701 5997 711</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class='bx bx-map'></i></div>
+        <div>
+          <div class="ci-label">Location</div>
+          <div class="ci-val">Arochukwu, Abia State, Nigeria</div>
+        </div>
+      </div>
+      <div class="contact-socials">
+        <a href="https://www.linkedin.com/in/chymextechhub?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="contact-social" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/comradechiemeriethankgodaneke?igsh=MmpwZ3hnOXdqeDBz" class="contact-social" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+        <a href="https://github.com/MrChymex" class="contact-social" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="https://wa.me/2347015997711" class="contact-social" aria-label="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+        <a href="mailto:anekethankgodc@gmail.com" class="contact-social" aria-label="Email"><i class='bx bx-envelope'></i></a>
+      </div>
+    </div>
+    <form id="contactForm" class="contact-form reveal" onsubmit="event.preventDefault(); submitForm()">
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" id="fname" placeholder="John" required>
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" id="lname" placeholder="Doe">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" id="femail" placeholder="john@example.com" required>
+      </div>
+      <div class="form-group">
+        <label>Service Needed</label>
+        <select id="fservice">
+          <option value="">Select a service...</option>
+          <option>Software Development</option>
+          <option>Graphics Design</option>
+          <option>Brand Identity</option>
+          <option>Video Production</option>
+          <option>Tech Consulting</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea id="fmessage" placeholder="Tell me about your project or inquiry..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary" style="width:100%;justify-content:center">
+        <i class='bx bx-send'></i> Send Message
+      </button>
+      <div class="form-status" id="formStatus"></div>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="fb-logo">Chimx<span>.</span>Tech Hub</div>
+      <p>Empowering businesses through technology, creativity, and leadership. Building innovative digital solutions from Abia State to the world.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>More</h4>
+      <ul>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://wa.me/2347015997711">WhatsApp</a></li>
+        <li><a href="mailto:anekethankgodc@gmail.com">Email</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Software Dev</a></li>
+        <li><a href="#services">Graphics Design</a></li>
+        <li><a href="#services">Branding</a></li>
+        <li><a href="#services">Video Production</a></li>
+        <li><a href="#services">Tech Consulting</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 <span class="accent">Chymex Tech Hub</span>. All Rights Reserved.</p>
+    <p>Designed & Built by <span class="accent">Chiemerie ThankGod Aneke</span></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
